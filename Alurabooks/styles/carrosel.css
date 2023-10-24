@@ -47,6 +47,12 @@
 .descrição__titulo {
     color: var(--laranja);
     font-weight: 700;
+    font: var(--fonte-principal);
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    
 }
 
 .descrição__titulo_livro {
@@ -71,5 +77,14 @@
     color: var(--branco);
     font-weight: 700;
     text-decoration: none;
+}
+
+.descrição__imagem {
+    width: 161px;
+    height: 166px;
+    top: -24px;
+    left: 187px;
+
+    
 }
 
