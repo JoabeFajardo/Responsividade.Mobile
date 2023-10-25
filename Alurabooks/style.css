@@ -2,6 +2,8 @@
 @import url("styles/banner.css");
 @import url("styles/carrosel.css");
 @import url("styles/topidos.css");
+@import url("styles/contato.css");
+@import url("styles/rodape.css");
 
 :root {
     --cor-de-fundo: rgba(235, 236, 238, 1);
