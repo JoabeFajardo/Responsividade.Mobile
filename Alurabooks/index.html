@@ -12,6 +12,7 @@
   rel="stylesheet"
   href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
 />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Josefin+Sans:wght@400;700&family=Krona+One&family=Montserrat:wght@400;600&family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
@@ -35,9 +36,33 @@
                                     <a href="#" class="lista__menu__link">DESIGN E UX</a></li>
             </ul>
                 <img src="Img/Logo.svg" alt="logo da Alura Books" class="container__imagem">
+                <h1 class="container__titulo"><b class="container__titulo--negrito">Alura</b>books</h1>
         </div>
+
+        <ul class="opções">
+            <input type="checkbox" id="opções-menu" class="opções__botão">
+            <label for="opções-menu">
+            <li class="opções__item">Categorias</li>
+            </label>
+            <ul class="lista__menu">              
+                    <li class="lista-menu__item">
+                        <a href="#" class="lista__menu__link">PROGRAMAÇÃO</a></li>
+                        <li class="lista-menu__item">
+                        <a href="#" class="lista__menu__link">FRONT-END</a></li>
+                        <li class="lista-menu__item">
+                            <a href="#" class="lista__menu__link">INFRAESTRUTURA</a></li>
+                            <li class="lista-menu__item">
+                                <a href="#" class="lista__menu__link">BUSINESS</a></li>
+                                <li class="lista-menu__item">
+                                    <a href="#" class="lista__menu__link">DESIGN E UX</a></li>
+            </ul>
+
+            <li class="opções__item"><a href="#" class="opções__link">Favoritos</a></li>
+            <li class="opções__item"><a href="#" class="opções__link">Minha Estante</a></li>
+        </ul>
+        
         <div class="container">
-            <a href="#"><img src="Img/coração.svg" alt="Meus Favoritos" class="container__imagem"></a>
+            <a href="#"><img src="Img/coração.svg" alt="Meus Favoritos" class="container__imagem container__imagem-transparente"></a>
             <a href="#"><img src="Img/Sacola.svg" alt="Carrinho de Compras" class="container__imagem"></a>
             <a href="#"><img src="Img/hug.svg" alt="Meu perfil" class="container__imagem"></a>
         </div>
@@ -172,8 +197,10 @@
 </section>
 
 <section class="contato">
+    <div class="contato__descrição">
     <h2 class="contato__título">Fique por dentro das novidades!</h2>
     <p class="contato__texto">Atualizações de e-books, novos livros, promoções e outros.</p>
+</div>
     <input type="email" placeholder="cadastre seu email" class="contato__email">
 </section>
 
